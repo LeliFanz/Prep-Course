@@ -220,13 +220,15 @@ function breakStatement(numero) {
   //devolver: "Se interrumpió la ejecución"
   //Pista: usá el statement 'break'
   // Tu código:
-  let array=[];
-  let suma=numero;
-  for (let i=0; i<10; i++) {
+  var array=[];
+  var suma=numero;
+  for (var i=0; i<10; i++) {
     suma = suma + 2;
-    if (suma === i)  break;
-    else {
+    if (suma !== i) {
       array.push(suma);
+    }
+    else {
+      break;
     }
   }
   if(i<10) {
