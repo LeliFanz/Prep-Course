@@ -1,0 +1,5 @@
+git clone https://<GITHUB_ACCES_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
+
+git push https://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@github.com/LeliFanz/Prep-Course.git
+
+Token GitHub - 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
